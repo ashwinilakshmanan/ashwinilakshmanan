@@ -25,6 +25,7 @@ public class AboutLocale {
         Locale localeJA = new Locale("ja"); // Japan
         DateFormat dateformatJA = DateFormat.getDateInstance(DateFormat.FULL, localeJA);
         // Well if you don't know how to type these characters, try "de", "it" or "us" ;-)
+//        System.out.println(dateformatJA.format(date));
 //        assertEquals(dateformatJA.format(date), __);
     }
 
